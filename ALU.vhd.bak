@@ -4,10 +4,10 @@ use ieee.std_logic_1164.all;
 entity ALU is 
 GENERIC (n : integer := 16);  
 	port(
-	  CIN:   in std_logic;
   	  A, B:  in std_logic_vector (n-1 downto 0);
   	  S:     in std_logic_vector (3 downto 0);
-  	  F:     out std_logic_vector (n-1 downto 0);
+  	  CIN:   in std_logic;
+	  F:     out std_logic_vector (n-1 downto 0);
   	  COUT:  out std_logic);
 end entity;
 
@@ -16,7 +16,7 @@ Architecture archALU of ALU is
    component partA is
        GENERIC (n : integer := 16);
        port(
-	S1, S0, CIN : in std_logic;
+	CIN, S1, S0 : in std_logic;
 	A, B : in std_logic_vector (n-1 downto 0);
 	F : out std_logic_vector (n-1 downto 0);
 	COUT : out std_logic);
@@ -25,25 +25,26 @@ Architecture archALU of ALU is
    component partB is 
         GENERIC (n : integer := 16);
 	port(
-       	     S1, S0 : in std_logic;
+       	     CIN, S1, S0 : in std_logic;
 	     A, B: in std_logic_vector (n-1 downto 0);
-	     F : out std_logic_vector (n-1 downto 0));
+	     F : out std_logic_vector (n-1 downto 0);
+	     COUT: out	std_logic);
    end component;
 
    component partC is 
 	GENERIC (n : integer := 16);
 	port(
-	  S1, S0, CIN : in std_logic;
-	  A : in std_logic_vector (n-1 downto 0);
-	  F : out std_logic_vector (n-1 downto 0);
-	  COUT : out std_logic);
+	S1, S0 : in std_logic;
+	A, B : in std_logic_vector (n-1 downto 0);
+	F : out std_logic_vector (n-1 downto 0);
+	COUT : out std_logic);	
    end component;
 
    component partD is 
         GENERIC (n : integer := 16);
 	port(
-	S1, S0, CIN : in std_logic;
-	A : in std_logic_vector (n-1 downto 0);
+	S1, S0 : in std_logic;
+	A, B : in std_logic_vector (n-1 downto 0);
 	F : out std_logic_vector (n-1 downto 0);
 	COUT : out std_logic);
    end component;
