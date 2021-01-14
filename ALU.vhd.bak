@@ -53,19 +53,19 @@ Architecture archALU of ALU is
 
 begin
 
-ua: partA generic map(n) port map (S(1), S(0), CIN, A, B, FA, coutA);
-ub: partB generic map(n) port map (S(1), S(0), A, B, FB);
-uc: partC generic map(n) port map (S(1), S(0), CIN, A, FC, coutC);
-ud: partD generic map(n) port map (S(1), S(0), CIN, A, FD, coutD);
+	ua: partA generic map(n) port map (S(1), S(0), CIN, A, B, FA, coutA);
+	ub: partB generic map(n) port map (S(1), S(0), A, B, FB);
+	uc: partC generic map(n) port map (S(1), S(0), CIN, A, FC, coutC);
+	ud: partD generic map(n) port map (S(1), S(0), CIN, A, FD, coutD);
 
-F <= FA when (S(3 downto 2)="00")
-else FB when (S(3 downto 2)="01")
-else FC when (S(3 downto 2)="10")
-else FD when (S(3 downto 2)="11");
+	F <= FA when (S(3 downto 2)="00")
+	else FB when (S(3 downto 2)="01")
+	else FC when (S(3 downto 2)="10")
+	else FD when (S(3 downto 2)="11");
 
-COUT <= coutA when (S(3 downto 2)="00")
-else	coutC when (S(3 downto 2)="10")
-else    coutD when (S(3 downto 2)="11")
-else '0';
+	COUT <= coutA when (S(3 downto 2)="00")
+	else	coutC when (S(3 downto 2)="10")
+	else    coutD when (S(3 downto 2)="11")
+	else '0';
 
 end archALU;

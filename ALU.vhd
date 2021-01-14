@@ -4,7 +4,6 @@ use ieee.std_logic_1164.all;
 entity ALU is 
 GENERIC (n : integer := 16);  
 	port(
-	  CIN:   in std_logic;
   	  A, B:  in std_logic_vector (n-1 downto 0);
   	  S:     in std_logic_vector (3 downto 0);
   	  F:     out std_logic_vector (n-1 downto 0);
