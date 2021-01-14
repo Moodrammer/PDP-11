@@ -55,3 +55,28 @@ run
 quit -sim
 # End time: 19:11:18 on Jan 14,2021, Elapsed time: 0:05:14
 # Errors: 0, Warnings: 1
+# Compile of partC.vhd failed with 11 errors.
+# Compile of partC.vhd was successful.
+vsim work.partc
+# vsim work.partc 
+# Start time: 19:21:56 on Jan 14,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.partc(archc)
+add wave -position insertpoint sim:/partc/*
+force -freeze sim:/partc/S1 0 0
+force -freeze sim:/partc/S0 0 0
+force -freeze sim:/partc/A 16#000A 0
+force -freeze sim:/partc/B 16#F00F 0
+run
+force -freeze sim:/partc/S0 1 0
+run
+force -freeze sim:/partc/S1 1 0
+force -freeze sim:/partc/S0 0 0
+run
+force -freeze sim:/partc/S0 1 0
+run
+quit -sim
+# End time: 19:24:46 on Jan 14,2021, Elapsed time: 0:02:50
+# Errors: 0, Warnings: 3
