@@ -1,6 +1,7 @@
 m255
 K4
 z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
 13
 !s112 1.1
 !i10d 8192
@@ -8,3 +9,85 @@ z2
 !i10f 100
 cModel Technology
 d/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Labs/Lab4/Assignment
+Eregister_nbits
+Z0 w1610638536
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+Z3 d/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11
+Z4 8/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/Register.vhd
+Z5 F/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/Register.vhd
+l0
+L4 1
+V>f126[=bLFUFHRC:HkiMU3
+!s100 4]K8JLk[6YZjS<Ue9VI^03
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1610638541
+!i10b 1
+Z8 !s108 1610638540.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/Register.vhd|
+Z10 !s107 /media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/Register.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Areg_arch
+R1
+R2
+DEx4 work 14 register_nbits 0 22 >f126[=bLFUFHRC:HkiMU3
+!i122 0
+l12
+L11 11
+VG?j[D[f07l?=?MZlELfKT2
+!s100 gK@6HCA[K8DYJCg;5o5gb0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Etristate
+Z13 w1610638634
+R1
+R2
+!i122 1
+R3
+Z14 8/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/Tristate.vhd
+Z15 F/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/Tristate.vhd
+l0
+L4 1
+Vl=nfU9Mk>Y9>1mIUITLdg2
+!s100 91<D52aXS;EQ<D`beb4LI2
+R6
+32
+Z16 !s110 1610638650
+!i10b 1
+Z17 !s108 1610638650.000000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/Tristate.vhd|
+!s107 /media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/Tristate.vhd|
+!i113 1
+R11
+R12
+Atristate_arch
+R1
+R2
+DEx4 work 8 tristate 0 22 l=nfU9Mk>Y9>1mIUITLdg2
+!i122 1
+l12
+L11 6
+VDlNX6XS>X;Ancc?l;jU`i0
+!s100 ]D4<jmHWW>1OVMADaje]c1
+R6
+32
+R16
+!i10b 1
+R17
+R18
+Z19 !s107 /media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/Tristate.vhd|
+!i113 1
+R11
+R12
