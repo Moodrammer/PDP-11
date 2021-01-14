@@ -1,10 +1,58 @@
-{/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/Register.vhd} {1 {vcom -work work -2002 -explicit -stats=none {/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/Register.vhd}
+{/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/partB.vhd} {1 {vcom -work work -2002 -explicit -stats=none {/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/partB.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity partB
+-- Compiling architecture archB of partB
+
+} {} {}} {/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/Register.vhd} {1 {vcom -work work -2002 -explicit -stats=none {/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/Register.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Compiling entity Register_nbits
 -- Compiling architecture reg_arch of Register_nbits
+
+} {} {}} {/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/ALU.vhd} {1 {vcom -work work -2002 -explicit -stats=none {/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/ALU.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ALU
+-- Compiling architecture archALU of ALU
+
+} {} {}} {/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/partC.vhd} {1 {vcom -work work -2002 -explicit -stats=none {/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/partC.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity partC
+-- Compiling architecture archC of partC
+
+} {} {}} {/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/partD.vhd} {1 {vcom -work work -2002 -explicit -stats=none {/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/partD.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity partD
+-- Compiling architecture archD of partD
+
+} {} {}} {/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/adder_nbits.vhd} {1 {vcom -work work -2002 -explicit -stats=none {/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/adder_nbits.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity adder_nbits
+-- Compiling architecture archnbits of adder_nbits
+
+} {} {}} {/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/adder_2bits.vhd} {1 {vcom -work work -2002 -explicit -stats=none {/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/adder_2bits.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity adder_2bits
+-- Compiling architecture arch2bits of adder_2bits
 
 } {} {}} {/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/Tristate.vhd} {1 {vcom -work work -2002 -explicit -stats=none {/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/Tristate.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020

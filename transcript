@@ -1,0 +1,53 @@
+# Loading project PDP11
+# Compile of adder_2bits.vhd was successful.
+# Compile of adder_nbits.vhd was successful.
+# Compile of partA.vhd was successful.
+# Compile of partB.vhd was successful.
+# Compile of partC.vhd was successful.
+# Compile of partD.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of partA.vhd failed with 3 errors.
+# Compile of partA.vhd failed with 3 errors.
+# Compile of partA.vhd was successful.
+# Compile of partA.vhd failed with 4 errors.
+# Compile of partA.vhd failed with 4 errors.
+# Compile of partA.vhd failed with 2 errors.
+# Compile of partA.vhd was successful.
+vsim work.parta
+# vsim work.parta 
+# Start time: 18:34:17 on Jan 14,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.parta(archa)
+# Loading work.adder_nbits(archnbits)
+# Loading work.adder_2bits(arch2bits)
+add wave -position insertpoint sim:/parta/*
+force -freeze sim:/parta/S1 0 0
+force -freeze sim:/parta/S0 0 0
+force -freeze sim:/parta/A FFFF 0
+# Value length (4) does not equal array index length (16).
+# ** UI-Msg: (vsim-4011) Invalid force value: FFFF 0.
+# 
+force -freeze sim:/parta/A 16#AAAA 0
+force -freeze sim:/parta/B 16#0003 0
+force -freeze sim:/parta/CIN 0 0
+run
+force -freeze sim:/parta/CIN 1 0
+run
+force -freeze sim:/parta/S0 1 0
+run
+force -freeze sim:/parta/CIN 0 0
+run
+force -freeze sim:/parta/S1 1 0
+force -freeze sim:/parta/S0 0 0
+run
+force -freeze sim:/parta/CIN 1 0
+run
+force -freeze sim:/parta/S0 1 0
+run
+force -freeze sim:/parta/CIN 0 0
+run
+quit -sim
+# End time: 18:39:42 on Jan 14,2021, Elapsed time: 0:05:25
+# Errors: 0, Warnings: 22

@@ -9,28 +9,315 @@ z2
 !i10f 100
 cModel Technology
 d/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Labs/Lab4/Assignment
-Eregister_nbits
-Z0 w1610638536
+Eadder_2bits
+Z0 w1610639715
 Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 0
+!i122 2
 Z3 d/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11
-Z4 8/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/Register.vhd
-Z5 F/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/Register.vhd
+Z4 8/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/adder_2bits.vhd
+Z5 F/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/adder_2bits.vhd
+l0
+L4 1
+Vi5;[a5F;MF3:U_ZFh:2Bc2
+!s100 8EmcAhKn9UR?[<[@m61Qd3
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1610639719
+!i10b 1
+Z8 !s108 1610639719.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/adder_2bits.vhd|
+Z10 !s107 /media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/adder_2bits.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Aarch2bits
+R1
+R2
+DEx4 work 11 adder_2bits 0 22 i5;[a5F;MF3:U_ZFh:2Bc2
+!i122 2
+l10
+L9 5
+VTBcJmKZ<^4U=?[VmjzVN93
+!s100 QIh6ES2R7eRHiAB]S@BfY2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eadder_nbits
+Z13 w1610639813
+R1
+R2
+!i122 3
+R3
+Z14 8/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/adder_nbits.vhd
+Z15 F/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/adder_nbits.vhd
+l0
+L4 1
+V8W5BW];LHh:dT4KN>2^f=0
+!s100 8d]k`<Wl00>cdU<8e53_J0
+R6
+32
+Z16 !s110 1610639836
+!i10b 1
+Z17 !s108 1610639836.000000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/adder_nbits.vhd|
+Z19 !s107 /media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/adder_nbits.vhd|
+!i113 1
+R11
+R12
+Aarchnbits
+R1
+R2
+DEx4 work 11 adder_nbits 0 22 8W5BW];LHh:dT4KN>2^f=0
+!i122 3
+l18
+L12 13
+V7Sh=7L?_`el>O`TzM82Ef3
+!s100 ^TT3kE28_GChZ8BWo77U>1
+R6
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R11
+R12
+Ealu
+Z20 w1610640293
+R1
+R2
+!i122 8
+R3
+Z21 8/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/ALU.vhd
+Z22 F/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/ALU.vhd
+l0
+L4 1
+VCT[Gd57Rf6Qez96nA<IIN2
+!s100 SRQ58zK:i^9Y1[<5<DPm21
+R6
+32
+Z23 !s110 1610640297
+!i10b 1
+Z24 !s108 1610640296.000000
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/ALU.vhd|
+Z26 !s107 /media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/ALU.vhd|
+!i113 1
+R11
+R12
+Aarchalu
+R1
+R2
+DEx4 work 3 alu 0 22 CT[Gd57Rf6Qez96nA<IIN2
+!i122 8
+l54
+L14 58
+VdkX=<m=QbMEKjQiel=3[;2
+!s100 GTZB0<5IJXc_HR9=L]DFi0
+R6
+32
+R23
+!i10b 1
+R24
+R25
+R26
+!i113 1
+R11
+R12
+Eparta
+Z27 w1610642036
+R1
+R2
+!i122 15
+R3
+Z28 8/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/partA.vhd
+Z29 F/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/partA.vhd
+l0
+L4 1
+Vcaz^Ym6::eI5LD_O0AlnN0
+!s100 H?9b<014f8_RQc93GfUXG3
+R6
+32
+Z30 !s110 1610642038
+!i10b 1
+Z31 !s108 1610642038.000000
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/partA.vhd|
+Z33 !s107 /media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/partA.vhd|
+!i113 1
+R11
+R12
+Aarcha
+R1
+R2
+Z34 DEx4 work 5 parta 0 22 caz^Ym6::eI5LD_O0AlnN0
+!i122 15
+l25
+L14 26
+V5S?MZfM=7fhN?0>]cm0^`0
+!s100 C6Q?RYjjHCZ=K_b8Y[H?[1
+R6
+32
+R30
+!i10b 1
+R31
+R32
+R33
+!i113 1
+R11
+R12
+Epartb
+Z35 w1610640024
+R1
+R2
+!i122 5
+R3
+Z36 8/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/partB.vhd
+Z37 F/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/partB.vhd
+l0
+L4 1
+VTON07:FmEa3U>Bz0VDKaM0
+!s100 7?BWBnXToXkF;VoJ>ebJf1
+R6
+32
+Z38 !s110 1610640036
+!i10b 1
+Z39 !s108 1610640036.000000
+Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/partB.vhd|
+Z41 !s107 /media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/partB.vhd|
+!i113 1
+R11
+R12
+Aarchb
+R1
+R2
+DEx4 work 5 partb 0 22 TON07:FmEa3U>Bz0VDKaM0
+!i122 5
+l13
+L12 9
+VEd6dGbhT^GoiK5=5lz_;c1
+!s100 T8^2lQofiYn>aILVboo4I2
+R6
+32
+R38
+!i10b 1
+R39
+R40
+R41
+!i113 1
+R11
+R12
+Epartc
+Z42 w1610640082
+R1
+R2
+!i122 6
+R3
+Z43 8/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/partC.vhd
+Z44 F/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/partC.vhd
+l0
+L4 1
+Vin019:Rz32c?eDA@mZ:OB0
+!s100 :Kh:?Lk];c9o8oZf72F3k2
+R6
+32
+Z45 !s110 1610640086
+!i10b 1
+Z46 !s108 1610640086.000000
+Z47 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/partC.vhd|
+Z48 !s107 /media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/partC.vhd|
+!i113 1
+R11
+R12
+Aarchc
+R1
+R2
+DEx4 work 5 partc 0 22 in019:Rz32c?eDA@mZ:OB0
+!i122 6
+l14
+L13 11
+Vnkm9L_kHezbQHYlOJ7B`P1
+!s100 I7=ooG@[k0zd^a<nEM[WN3
+R6
+32
+R45
+!i10b 1
+R46
+R47
+R48
+!i113 1
+R11
+R12
+Epartd
+Z49 w1610640148
+R1
+R2
+!i122 7
+R3
+Z50 8/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/partD.vhd
+Z51 F/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/partD.vhd
+l0
+L4 1
+V>EYM1Oe7Mkoe8jl<=]]oZ1
+!s100 SCLLhiH:H[JkPQ6=P4zWF3
+R6
+32
+Z52 !s110 1610640152
+!i10b 1
+Z53 !s108 1610640152.000000
+Z54 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/partD.vhd|
+Z55 !s107 /media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/partD.vhd|
+!i113 1
+R11
+R12
+Aarchd
+R1
+R2
+DEx4 work 5 partd 0 22 >EYM1Oe7Mkoe8jl<=]]oZ1
+!i122 7
+l16
+L15 12
+VQ8@`kW@W0MX4MTBYK0;nk0
+!s100 >^I?A9LeeF^AM0[UlKPZH2
+R6
+32
+R52
+!i10b 1
+R53
+R54
+R55
+!i113 1
+R11
+R12
+Eregister_nbits
+Z56 w1610638536
+R1
+R2
+!i122 0
+R3
+Z57 8/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/Register.vhd
+Z58 F/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/Register.vhd
 l0
 L4 1
 V>f126[=bLFUFHRC:HkiMU3
 !s100 4]K8JLk[6YZjS<Ue9VI^03
-Z6 OV;C;2020.1;71
+R6
 32
-Z7 !s110 1610638541
+Z59 !s110 1610638541
 !i10b 1
-Z8 !s108 1610638540.000000
-Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/Register.vhd|
-Z10 !s107 /media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/Register.vhd|
+Z60 !s108 1610638540.000000
+Z61 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/Register.vhd|
+Z62 !s107 /media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/Register.vhd|
 !i113 1
-Z11 o-work work -2002 -explicit
-Z12 tExplicit 1 CvgOpt 0
+R11
+R12
 Areg_arch
 R1
 R2
@@ -42,33 +329,33 @@ VG?j[D[f07l?=?MZlELfKT2
 !s100 gK@6HCA[K8DYJCg;5o5gb0
 R6
 32
-R7
+R59
 !i10b 1
-R8
-R9
-R10
+R60
+R61
+R62
 !i113 1
 R11
 R12
 Etristate
-Z13 w1610638634
+Z63 w1610638634
 R1
 R2
 !i122 1
 R3
-Z14 8/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/Tristate.vhd
-Z15 F/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/Tristate.vhd
+Z64 8/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/Tristate.vhd
+Z65 F/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/Tristate.vhd
 l0
 L4 1
 Vl=nfU9Mk>Y9>1mIUITLdg2
 !s100 91<D52aXS;EQ<D`beb4LI2
 R6
 32
-Z16 !s110 1610638650
+Z66 !s110 1610638650
 !i10b 1
-Z17 !s108 1610638650.000000
-Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/Tristate.vhd|
-!s107 /media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/Tristate.vhd|
+Z67 !s108 1610638650.000000
+Z68 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/Tristate.vhd|
+Z69 !s107 /media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/Tristate.vhd|
 !i113 1
 R11
 R12
@@ -83,11 +370,11 @@ VDlNX6XS>X;Ancc?l;jU`i0
 !s100 ]D4<jmHWW>1OVMADaje]c1
 R6
 32
-R16
+R66
 !i10b 1
-R17
-R18
-Z19 !s107 /media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/Tristate.vhd|
+R67
+R68
+R69
 !i113 1
 R11
 R12
