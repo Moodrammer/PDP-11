@@ -1,2 +1,150 @@
+# Reading C:/intelFPGA/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# vsim -gui . 
+# Start time: 03:36:34 on Jan 15,2021
+# ** Error (suppressible): (vsim-19) Failed to access library '' at "".
+# Invalid argument. (errno = EINVAL)
+# Error loading design
+# End time: 03:36:34 on Jan 15,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vsim work.adder_2bits
+# vsim work.adder_2bits 
+# Start time: 03:36:46 on Jan 15,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.adder_2bits(arch2bits)
+quit -sim
+# End time: 03:36:55 on Jan 15,2021, Elapsed time: 0:00:09
+# Errors: 0, Warnings: 0
+vsim work.adder_2bits
+# vsim work.adder_2bits 
+# Start time: 03:37:03 on Jan 15,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.adder_2bits(arch2bits)
+quit -sim
+# End time: 03:37:11 on Jan 15,2021, Elapsed time: 0:00:08
+# Errors: 0, Warnings: 0
+# Loading project PDP-11
+# reading C:/intelFPGA/18.1/modelsim_ase/win32aloem/../modelsim.ini
 # Loading project PDP11
+# reading C:/intelFPGA/18.1/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project PDP11
+# Error opening C:/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/partA.vhd
+# Path name 'C:/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/partA.vhd' doesn't exist.
+# Error opening C:/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/partA.vhd
+# Path name 'C:/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/partA.vhd' doesn't exist.
+# Error opening C:/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/partA.vhd
+# Path name 'C:/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/partA.vhd' doesn't exist.
+# Error opening C:/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/partB.vhd
+# Path name 'C:/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/partB.vhd' doesn't exist.
+# Error opening C:/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/partB.vhd
+# Path name 'C:/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/partB.vhd' doesn't exist.
+# Error opening C:/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/partB.vhd
+# Path name 'C:/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/partB.vhd' doesn't exist.
+# Error opening C:/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/partB.vhd
+# Path name 'C:/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/partB.vhd' doesn't exist.
+# Error opening C:/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/partB.vhd
+# Path name 'C:/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/partB.vhd' doesn't exist.
+# reading C:/intelFPGA/18.1/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project PDP11
+# Error opening C:/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/Tristate.vhd
+# Path name 'C:/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Project/PDP-11/Tristate.vhd' doesn't exist.
+# Compile of OrIndSrc.vhd was successful.
 # Compile of ALU.vhd was successful.
+# Compile of Decoder.vhd was successful.
+# Compile of ORDst.vhd was successful.
+# Compile of ORIndDst.vhd was successful.
+# Compile of Tristate.vhd was successful.
+# Compile of adder_2bits.vhd was successful.
+# Compile of adder_nbits.vhd was successful.
+# Compile of partA.vhd was successful.
+# Compile of partB.vhd was successful.
+# Compile of partC.vhd was successful.
+# Compile of partD.vhd was successful.
+# Compile of Register.vhd was successful.
+# 13 compiles, 0 failed with no errors.
+# Compile of PLA.vhd failed with 11 errors.
+# Compile of PLA.vhd failed with 10 errors.
+# Compile of PLA.vhd failed with 2 errors.
+# Compile of PLA.vhd was successful.
+# Compile of OrIndSrc.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of Decoder.vhd failed with 2 errors.
+# Compile of ORDst.vhd was successful.
+# Compile of ORIndDst.vhd was successful.
+# Compile of Tristate.vhd was successful.
+# Compile of adder_2bits.vhd was successful.
+# Compile of adder_nbits.vhd was successful.
+# Compile of partA.vhd was successful.
+# Compile of partB.vhd was successful.
+# Compile of partC.vhd was successful.
+# Compile of partD.vhd was successful.
+# Compile of Register.vhd was successful.
+# Compile of PLA.vhd was successful.
+# 14 compiles, 1 failed with 2 errors.
+# Compile of Decoder.vhd failed with 2 errors.
+# Compile of Decoder.vhd was successful.
+# Compile of partC.vhd was successful.
+# Compile of OrIndSrc.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of Decoder.vhd was successful.
+# Compile of ORDst.vhd was successful.
+# Compile of ORIndDst.vhd was successful.
+# Compile of Tristate.vhd was successful.
+# Compile of adder_2bits.vhd was successful.
+# Compile of adder_nbits.vhd was successful.
+# Compile of partA.vhd was successful.
+# Compile of partB.vhd was successful.
+# Compile of partC.vhd was successful.
+# Compile of partD.vhd was successful.
+# Compile of Register.vhd was successful.
+# Compile of PLA.vhd was successful.
+# 14 compiles, 0 failed with no errors.
+vsim work.pla
+# vsim work.pla 
+# Start time: 05:12:02 on Jan 15,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.pla(arc)
+force -freeze sim:/pla/i 1111000100000000 0
+force -freeze sim:/pla/enable 1 0
+run
+quit -sim
+# End time: 05:16:02 on Jan 15,2021, Elapsed time: 0:04:00
+# Errors: 0, Warnings: 0
+# Compile of PLA.vhd failed with 11 errors.
+# Compile of PLA.vhd was successful.
+vsim work.pla
+# vsim work.pla 
+# Start time: 05:25:47 on Jan 15,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.pla(arc)
+add wave -position end  sim:/pla/i
+add wave -position end  sim:/pla/o
+force -freeze sim:/pla/i 1111000100000000 0
+force -freeze sim:/pla/enable 1 0
+run
+force -freeze sim:/pla/i 1111001000000000 0
+run
+force -freeze sim:/pla/i 1111010000000000 0
+run
+force -freeze sim:/pla/i 1111001100000000 0
+run
+force -freeze sim:/pla/i 1111010100000000 0
+run
+force -freeze sim:/pla/i 1101010100000000 0
+run
+force -freeze sim:/pla/i 1011010100000000 0
+run
+force -freeze sim:/pla/i 1000010100000000 0
+run
+quit -sim
+# End time: 05:33:21 on Jan 15,2021, Elapsed time: 0:07:34
+# Errors: 0, Warnings: 0
