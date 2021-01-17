@@ -4,13 +4,12 @@ use ieee.numeric_std.all;
 use ieee.std_logic_unsigned.all;
 
 entity counter is
-  generic (m: integer);
+  generic (n: integer);
   port (
-    clk, rst: in std_logic;
-    loadEnable: in std_logic;
-    load: in std_logic_vector(m-1 downto 0);
-    countEnable: in std_logic;
-    count: out std_logic_vector(m-1 downto 0)
+    clk, rst, loadEnable: in std_logic;
+    load: in std_logic_vector(n-1 downto 0);
+    count: out std_logic_vector(n-1 downto 0);
+    countEnable: in std_logic
   ) ;
 end entity;
 
