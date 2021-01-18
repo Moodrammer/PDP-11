@@ -136,6 +136,8 @@ pair<string, int> splitInstruction(string line, int &numberOfWords)
     string IR = "";
     pair<string, int> out("", -1);
     string op = line.substr(0, line.find(' '));
+    if (op[op.length() - 1] == ';')
+        op = op.substr(0, line.find(';'));
     if (op.length() == 0 || line[0] == ';' || op == "DEFINE")
         return out;
     string temp = TrimLeft(line.substr(op.length()));
