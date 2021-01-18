@@ -1,101 +1,10 @@
-{G:/3rd grade CMP/1st term/Computer Architecture/project/PDP-11/PLA.vhd} {1 {vcom -work work -2002 -explicit -stats=none {G:/3rd grade CMP/1st term/Computer Architecture/project/PDP-11/PLA.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity pla
--- Compiling architecture arc of pla
-
-} {} {}} C:/Users/Dell/Desktop/PDP-11/Tristate.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Dell\Desktop\PDP-11\Tristate.vhd}
+C:/Users/Dell/Desktop/PDP-11/Tristate.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Dell\Desktop\PDP-11\Tristate.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Compiling entity Tristate
 -- Compiling architecture tristate_arch of Tristate
-
-} {} {}} {G:/3rd grade CMP/1st term/Computer Architecture/project/PDP-11/Decoder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {G:/3rd grade CMP/1st term/Computer Architecture/project/PDP-11/Decoder.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity decoder
--- Compiling architecture arch of decoder
-
-} {} {}} {G:/3rd grade CMP/1st term/Computer Architecture/project/PDP-11/ORBranch.vhd} {1 {vcom -work work -2002 -explicit -stats=none {G:/3rd grade CMP/1st term/Computer Architecture/project/PDP-11/ORBranch.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Loading package std_logic_arith
--- Loading package STD_LOGIC_UNSIGNED
--- Compiling entity ORBranch
--- Compiling architecture arch of ORBranch
-
-} {} {}} {G:/3rd grade CMP/1st term/Computer Architecture/project/PDP-11/adder_nbits.vhd} {1 {vcom -work work -2002 -explicit -stats=none {G:/3rd grade CMP/1st term/Computer Architecture/project/PDP-11/adder_nbits.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity adder_nbits
--- Compiling architecture archnbits of adder_nbits
-
-} {} {}} {G:/3rd grade CMP/1st term/Computer Architecture/project/PDP-11/partA.vhd} {1 {vcom -work work -2002 -explicit -stats=none {G:/3rd grade CMP/1st term/Computer Architecture/project/PDP-11/partA.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity partA
--- Compiling architecture archA of partA
-
-} {} {}} {G:/3rd grade CMP/1st term/Computer Architecture/project/PDP-11/Counter.vhd} {1 {vcom -work work -2002 -explicit -stats=none {G:/3rd grade CMP/1st term/Computer Architecture/project/PDP-11/Counter.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Loading package std_logic_arith
--- Loading package STD_LOGIC_UNSIGNED
--- Compiling entity counter
--- Compiling architecture arch of counter
-
-} {} {}} {G:/3rd grade CMP/1st term/Computer Architecture/project/PDP-11/Tristate.vhd} {1 {vcom -work work -2002 -explicit -stats=none {G:/3rd grade CMP/1st term/Computer Architecture/project/PDP-11/Tristate.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity Tristate
--- Compiling architecture tristate_arch of Tristate
-
-} {} {}} {G:/3rd grade CMP/1st term/Computer Architecture/project/PDP-11/partB.vhd} {1 {vcom -work work -2002 -explicit -stats=none {G:/3rd grade CMP/1st term/Computer Architecture/project/PDP-11/partB.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity partB
--- Compiling architecture archB of partB
-
-} {} {}} {G:/3rd grade CMP/1st term/Computer Architecture/project/PDP-11/ALU.vhd} {1 {vcom -work work -2002 -explicit -stats=none {G:/3rd grade CMP/1st term/Computer Architecture/project/PDP-11/ALU.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Loading package std_logic_arith
--- Loading package STD_LOGIC_UNSIGNED
--- Compiling entity ALU
--- Compiling architecture archALU of ALU
-
-} {} {}} {G:/3rd grade CMP/1st term/Computer Architecture/project/PDP-11/partC.vhd} {1 {vcom -work work -2002 -explicit -stats=none {G:/3rd grade CMP/1st term/Computer Architecture/project/PDP-11/partC.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity partC
--- Compiling architecture archC of partC
 
 } {} {}} C:/Users/Dell/Desktop/PDP-11/Register.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Dell/Desktop/PDP-11/Register.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -105,14 +14,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity Register_nbits
 -- Compiling architecture reg_arch of Register_nbits
 
-} {} {}} {G:/3rd grade CMP/1st term/Computer Architecture/project/PDP-11/Mdr.vhd} {1 {vcom -work work -2002 -explicit -stats=none {G:/3rd grade CMP/1st term/Computer Architecture/project/PDP-11/Mdr.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity mdr
--- Compiling architecture reg_arch of mdr
-
 } {} {}} C:/Users/Dell/Desktop/PDP-11/Decoder.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Dell\Desktop\PDP-11\Decoder.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
@@ -121,41 +22,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Loading package NUMERIC_STD
 -- Compiling entity decoder
 -- Compiling architecture arch of decoder
-
-} {} {}} {G:/3rd grade CMP/1st term/Computer Architecture/project/PDP-11/adder_2bits.vhd} {1 {vcom -work work -2002 -explicit -stats=none {G:/3rd grade CMP/1st term/Computer Architecture/project/PDP-11/adder_2bits.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity adder_2bits
--- Compiling architecture arch2bits of adder_2bits
-
-} {} {}} {G:/3rd grade CMP/1st term/Computer Architecture/project/PDP-11/partD.vhd} {1 {vcom -work work -2002 -explicit -stats=none {G:/3rd grade CMP/1st term/Computer Architecture/project/PDP-11/partD.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity partD
--- Compiling architecture archD of partD
-
-} {} {}} {G:/3rd grade CMP/1st term/Computer Architecture/project/PDP-11/ORDst.vhd} {1 {vcom -work work -2002 -explicit -stats=none {G:/3rd grade CMP/1st term/Computer Architecture/project/PDP-11/ORDst.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Loading package std_logic_arith
--- Loading package STD_LOGIC_UNSIGNED
--- Compiling entity ORDst
--- Compiling architecture arch of ORDst
-
-} {} {}} C:/Users/Dell/Desktop/PDP-11/adder_nbits.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Dell/Desktop/PDP-11/adder_nbits.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity adder_nbits
--- Compiling architecture archnbits of adder_nbits
 
 } {} {}} C:/Users/Dell/Desktop/PDP-11/ORIndDst.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Dell\Desktop\PDP-11\ORIndDst.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -168,13 +34,13 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity ORIndDst
 -- Compiling architecture arch of ORIndDst
 
-} {} {}} {G:/3rd grade CMP/1st term/Computer Architecture/project/PDP-11/Register.vhd} {1 {vcom -work work -2002 -explicit -stats=none {G:/3rd grade CMP/1st term/Computer Architecture/project/PDP-11/Register.vhd}
+} {} {}} C:/Users/Dell/Desktop/PDP-11/adder_nbits.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Dell/Desktop/PDP-11/adder_nbits.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity Register_nbits
--- Compiling architecture reg_arch of Register_nbits
+-- Compiling entity adder_nbits
+-- Compiling architecture archnbits of adder_nbits
 
 } {} {}} C:/Users/Dell/Desktop/PDP-11/partA.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Dell\Desktop\PDP-11\partA.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -184,14 +50,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity partA
 -- Compiling architecture archA of partA
 
-} {} {}} {G:/3rd grade CMP/1st term/Computer Architecture/project/PDP-11/BitORing.vhd} {1 {vcom -work work -2002 -explicit -stats=none {G:/3rd grade CMP/1st term/Computer Architecture/project/PDP-11/BitORing.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity BitORing
--- Compiling architecture arch of BitORing
-
 } {} {}} C:/Users/Dell/Desktop/PDP-11/partB.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Dell\Desktop\PDP-11\partB.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
@@ -199,14 +57,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Loading package std_logic_1164
 -- Compiling entity partB
 -- Compiling architecture archB of partB
-
-} {} {}} C:/Users/Dell/Desktop/PDP-11/partC.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Dell\Desktop\PDP-11\partC.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity partC
--- Compiling architecture archC of partC
 
 } {} {}} C:/Users/Dell/Desktop/PDP-11/ALU.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Dell\Desktop\PDP-11\ALU.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -216,33 +66,13 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity ALU
 -- Compiling architecture archALU of ALU
 
-} {} {}} {G:/3rd grade CMP/1st term/Computer Architecture/project/PDP-11/ORIndDst.vhd} {1 {vcom -work work -2002 -explicit -stats=none {G:/3rd grade CMP/1st term/Computer Architecture/project/PDP-11/ORIndDst.vhd}
+} {} {}} C:/Users/Dell/Desktop/PDP-11/partC.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Dell\Desktop\PDP-11\partC.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Loading package std_logic_arith
--- Loading package STD_LOGIC_UNSIGNED
--- Compiling entity ORIndDst
--- Compiling architecture arch of ORIndDst
-
-} {} {}} {G:/3rd grade CMP/1st term/Computer Architecture/project/PDP-11/ram.vhd} {1 {vcom -work work -2002 -explicit -stats=none {G:/3rd grade CMP/1st term/Computer Architecture/project/PDP-11/ram.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity ram
--- Compiling architecture syncrama of ram
-
-} {} {}} C:/Users/Dell/Desktop/PDP-11/partD.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Dell\Desktop\PDP-11\partD.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity partD
--- Compiling architecture archD of partD
+-- Compiling entity partC
+-- Compiling architecture archC of partC
 
 } {} {}} C:/Users/Dell/Desktop/PDP-11/adder_2bits.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Dell/Desktop/PDP-11/adder_2bits.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -252,24 +82,13 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity adder_2bits
 -- Compiling architecture arch2bits of adder_2bits
 
-} {} {}} {G:/3rd grade CMP/1st term/Computer Architecture/project/PDP-11/ORResult.vhd} {1 {vcom -work work -2002 -explicit -stats=none {G:/3rd grade CMP/1st term/Computer Architecture/project/PDP-11/ORResult.vhd}
+} {} {}} C:/Users/Dell/Desktop/PDP-11/partD.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Dell\Desktop\PDP-11\partD.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity ORResult
--- Compiling architecture arch of ORResult
-
-} {} {}} C:/Users/Dell/Desktop/PDP-11/OrIndSrc.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Dell\Desktop\PDP-11\OrIndSrc.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Loading package std_logic_arith
--- Loading package STD_LOGIC_UNSIGNED
--- Compiling entity ORIndSrc
--- Compiling architecture arch of ORIndSrc
+-- Compiling entity partD
+-- Compiling architecture archD of partD
 
 } {} {}} C:/Users/Dell/Desktop/PDP-11/ORDst.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Dell\Desktop\PDP-11\ORDst.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -282,18 +101,7 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity ORDst
 -- Compiling architecture arch of ORDst
 
-} {} {}} {G:/3rd grade CMP/1st term/Computer Architecture/project/PDP-11/OROperation.vhd} {1 {vcom -work work -2002 -explicit -stats=none {G:/3rd grade CMP/1st term/Computer Architecture/project/PDP-11/OROperation.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Loading package std_logic_arith
--- Loading package STD_LOGIC_UNSIGNED
--- Compiling entity OROperation
--- Compiling architecture arch of OROperation
-
-} {} {}} {G:/3rd grade CMP/1st term/Computer Architecture/project/PDP-11/ORIndSrc.vhd} {1 {vcom -work work -2002 -explicit -stats=none {G:/3rd grade CMP/1st term/Computer Architecture/project/PDP-11/ORIndSrc.vhd}
+} {} {}} C:/Users/Dell/Desktop/PDP-11/OrIndSrc.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Dell\Desktop\PDP-11\OrIndSrc.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO

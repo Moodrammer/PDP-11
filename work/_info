@@ -10,23 +10,23 @@ z2
 cModel Technology
 d/media/hossam/Hossam/Study/3rd Year/First Term/Computer Architecture/Labs/Lab4/Assignment
 Eadder_2bits
-Z0 w1610673400
+Z0 w1610647276
 Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
-Z3 dC:/Users/Dell/Desktop/PDP-11
-Z4 8C:/Users/Dell/Desktop/PDP-11/adder_2bits.vhd
-Z5 FC:/Users/Dell/Desktop/PDP-11/adder_2bits.vhd
+Z3 dC:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11
+Z4 8C:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/adder_2bits.vhd
+Z5 FC:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/adder_2bits.vhd
 l0
 L4
 Vi5;[a5F;MF3:U_ZFh:2Bc2
 !s100 8EmcAhKn9UR?[<[@m61Qd3
 Z6 OV;C;10.5b;63
 32
-Z7 !s110 1610680312
+Z7 !s110 1610997225
 !i10b 1
-Z8 !s108 1610680312.000000
-Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Dell/Desktop/PDP-11/adder_2bits.vhd|
-Z10 !s107 C:/Users/Dell/Desktop/PDP-11/adder_2bits.vhd|
+Z8 !s108 1610997225.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/adder_2bits.vhd|
+Z10 !s107 C:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/adder_2bits.vhd|
 !i113 1
 Z11 o-work work -2002 -explicit
 Z12 tExplicit 1 CvgOpt 0
@@ -53,8 +53,8 @@ R0
 R1
 R2
 R3
-Z13 8C:/Users/Dell/Desktop/PDP-11/adder_nbits.vhd
-Z14 FC:/Users/Dell/Desktop/PDP-11/adder_nbits.vhd
+Z13 8C:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/adder_nbits.vhd
+Z14 FC:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/adder_nbits.vhd
 l0
 L4
 V8W5BW];LHh:dT4KN>2^f=0
@@ -64,8 +64,8 @@ R6
 R7
 !i10b 1
 R8
-Z15 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Dell/Desktop/PDP-11/adder_nbits.vhd|
-Z16 !s107 C:/Users/Dell/Desktop/PDP-11/adder_nbits.vhd|
+Z15 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/adder_nbits.vhd|
+Z16 !s107 C:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/adder_nbits.vhd|
 !i113 1
 R11
 R12
@@ -88,203 +88,332 @@ R16
 R11
 R12
 Ealu
-R0
+Z17 w1610954668
+Z18 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z19 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z20 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
 R1
 R2
 R3
-Z17 8C:\Users\Dell\Desktop\PDP-11\ALU.vhd
-Z18 FC:\Users\Dell\Desktop\PDP-11\ALU.vhd
+Z21 8C:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/ALU.vhd
+Z22 FC:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/ALU.vhd
 l0
-L4
-V3B@U]`I5Pi]]3_@idW7Mb3
-!s100 CK4D`CH4^mj64`NIA42800
+L6
+V]NP>SVb4`EQk07QEHm3G71
+!s100 6hl]e]OTD`k`:Ao8giQ3o1
 R6
 32
-Z19 !s110 1610680311
+Z23 !s110 1610997226
 !i10b 1
-Z20 !s108 1610680311.000000
-Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Dell\Desktop\PDP-11\ALU.vhd|
-Z22 !s107 C:\Users\Dell\Desktop\PDP-11\ALU.vhd|
+Z24 !s108 1610997226.000000
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/ALU.vhd|
+Z26 !s107 C:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/ALU.vhd|
 !i113 1
 R11
 R12
 Aarchalu
+R18
+R19
+R20
 R1
 R2
-DEx4 work 3 alu 0 22 3B@U]`I5Pi]]3_@idW7Mb3
-l55
-L14
-Vi;cZC@bGJcVoa;K:ILRzD2
-!s100 L?i]1W:Vj25WaAi9B]a9c3
+DEx4 work 3 alu 0 22 ]NP>SVb4`EQk07QEHm3G71
+l57
+L16
+V;eAQRIzO=b>M??`L3e5_;2
+!s100 39:`1=mY1eihn@]N6>T^R0
 R6
 32
-R19
+R23
 !i10b 1
-R20
-R21
-R22
+R24
+R25
+R26
+!i113 1
+R11
+R12
+Ebitoring
+R17
+R1
+R2
+R3
+Z27 8C:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/BitORing.vhd
+Z28 FC:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/BitORing.vhd
+l0
+L4
+VEce^RgfZ=DCEDho9FX7460
+!s100 j@V`5leF>lAecZ;UKeZM03
+R6
+32
+R23
+!i10b 1
+R24
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/BitORing.vhd|
+Z30 !s107 C:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/BitORing.vhd|
+!i113 1
+R11
+R12
+Aarch
+R1
+R2
+DEx4 work 8 bitoring 0 22 Ece^RgfZ=DCEDho9FX7460
+l78
+L19
+V6Z`15MoNjQJBOnSi692;k2
+!s100 mI0kXhaF>8eToU_U=1=BL0
+R6
+32
+R23
+!i10b 1
+R24
+R29
+R30
 !i113 1
 R11
 R12
 Ecounter
-R0
-Z23 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
-Z24 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
-Z25 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R17
+R18
+R19
+R20
 R1
 R2
 R3
-Z26 8C:/Users/Dell/Desktop/PDP-11/Counter.vhd
-Z27 FC:/Users/Dell/Desktop/PDP-11/Counter.vhd
+Z31 8C:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/Counter.vhd
+Z32 FC:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/Counter.vhd
 l0
 L6
-V]Jc54X689_4DMMOQVjQIJ1
-!s100 QjAAiKjmDV8dR4F<BHLTj3
+VAPba:[U4N6fQ[o56<zdVB2
+!s100 `PfVPPB2KO<QD4H4UPiMm1
 R6
 32
-Z28 !s110 1610674424
+Z33 !s110 1610997227
 !i10b 1
-Z29 !s108 1610674424.000000
-Z30 !s90 -reportprogress|300|-work|work|C:/Users/Dell/Desktop/PDP-11/Counter.vhd|
-Z31 !s107 C:/Users/Dell/Desktop/PDP-11/Counter.vhd|
-!i113 1
-Z32 o-work work
-R12
-Aarch
-R23
-R24
-R25
-R1
-R2
-DEx4 work 7 counter 0 22 ]Jc54X689_4DMMOQVjQIJ1
-l19
-L17
-V;iE06eiT`KMBKh6RY2g4I2
-!s100 >_2i95nb`Ah@z]GQR?E<@2
-R6
-32
-R28
-!i10b 1
-R29
-R30
-R31
-!i113 1
-R32
-R12
-Edecoder
-Z33 w1610680299
-R25
-R1
-R2
-R3
-Z34 8C:\Users\Dell\Desktop\PDP-11\Decoder.vhd
-Z35 FC:\Users\Dell\Desktop\PDP-11\Decoder.vhd
-l0
-L5
-V_oJ;MT4BCbz^m1jEdQ>Om3
-!s100 8[6N=T:fQIaidI<?FzZnm1
-R6
-32
-R19
-!i10b 1
-R20
-Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Dell\Desktop\PDP-11\Decoder.vhd|
-Z37 !s107 C:\Users\Dell\Desktop\PDP-11\Decoder.vhd|
+Z34 !s108 1610997227.000000
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/Counter.vhd|
+Z36 !s107 C:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/Counter.vhd|
 !i113 1
 R11
 R12
 Aarch
-R25
+R18
+R19
+R20
 R1
 R2
-DEx4 work 7 decoder 0 22 _oJ;MT4BCbz^m1jEdQ>Om3
-l15
-L14
-Vm=BD[LmiDJIzF0B=^LP3g3
-!s100 055RWj5TNAWQVo_c;<E:43
+DEx4 work 7 counter 0 22 APba:[U4N6fQ[o56<zdVB2
+l18
+L16
+Vd@m]_>ehGV[mGLSLgNhf93
+!s100 7TVF<]W5X0`UfNN86mRa02
 R6
 32
-R19
+R33
 !i10b 1
-R20
+R34
+R35
 R36
+!i113 1
+R11
+R12
+Edecoder
+Z37 w1610997185
+R20
+R1
+R2
+R3
+Z38 8C:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/Decoder.vhd
+Z39 FC:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/Decoder.vhd
+l0
+L5
+Vl86C9?5KWCRE5Pg^hT1FF1
+!s100 z2X6;C0OzzA`DDn2:2VKk0
+R6
+32
+R33
+!i10b 1
+R34
+Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/Decoder.vhd|
+Z41 !s107 C:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/Decoder.vhd|
+!i113 1
+R11
+R12
+Aarch
+R20
+R1
+R2
+DEx4 work 7 decoder 0 22 l86C9?5KWCRE5Pg^hT1FF1
+l14
+L13
+V5P`f=_1OKYRUT[U7d<0Y21
+!s100 K0l^Vl0UV71S[4E8>^[zk2
+R6
+32
+R33
+!i10b 1
+R34
+R40
+R41
+!i113 1
+R11
+R12
+Emdr
 R37
+R1
+R2
+R3
+Z42 8C:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/Mdr.vhd
+Z43 FC:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/Mdr.vhd
+l0
+L4
+VaOEkIdic^O7W76eDHKF]81
+!s100 BGAUeSZi@5B<AcH>z1LS_3
+R6
+32
+R33
+!i10b 1
+R34
+Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/Mdr.vhd|
+Z45 !s107 C:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/Mdr.vhd|
+!i113 1
+R11
+R12
+Areg_arch
+R1
+R2
+DEx4 work 3 mdr 0 22 aOEkIdic^O7W76eDHKF]81
+l15
+L14
+V;IcXNLAzV1m1dAZEX94U@3
+!s100 _Ej8d;G1BVX`WQ[S[_l;P2
+R6
+32
+R33
+!i10b 1
+R34
+R44
+R45
+!i113 1
+R11
+R12
+Eorbranch
+R17
+R18
+R19
+R20
+R1
+R2
+R3
+Z46 8C:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/ORBranch.vhd
+Z47 FC:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/ORBranch.vhd
+l0
+L7
+VVXMakA<7?CFZ@8G:lSeFc2
+!s100 >lK7P=:Z6;CXl_0i0nIDf1
+R6
+32
+R33
+!i10b 1
+R34
+Z48 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/ORBranch.vhd|
+Z49 !s107 C:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/ORBranch.vhd|
+!i113 1
+R11
+R12
+Aarch
+R18
+R19
+R20
+R1
+R2
+DEx4 work 8 orbranch 0 22 VXMakA<7?CFZ@8G:lSeFc2
+l19
+L17
+V;b;=i?e;_0E58`mVG_h4U2
+!s100 @@MoXi6M1AoP3iGShcA5a0
+R6
+32
+R33
+!i10b 1
+R34
+R48
+R49
 !i113 1
 R11
 R12
 Eordst
-R0
-R23
-R24
-R25
+R37
+R18
+R19
+R20
 R1
 R2
 R3
-Z38 8C:\Users\Dell\Desktop\PDP-11\ORDst.vhd
-Z39 FC:\Users\Dell\Desktop\PDP-11\ORDst.vhd
+Z50 8C:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/ORDst.vhd
+Z51 FC:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/ORDst.vhd
 l0
 L7
 V6`KIKzzP]dDMd?=D88en[2
 !s100 >H?BVS>:lk:4zfi[=TOG71
 R6
 32
-R19
+Z52 !s110 1610997228
 !i10b 1
-R20
-Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Dell\Desktop\PDP-11\ORDst.vhd|
-Z41 !s107 C:\Users\Dell\Desktop\PDP-11\ORDst.vhd|
+R34
+Z53 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/ORDst.vhd|
+Z54 !s107 C:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/ORDst.vhd|
 !i113 1
 R11
 R12
 Aarch
-R23
-R24
-R25
+R18
+R19
+R20
 R1
 R2
 DEx4 work 5 ordst 0 22 6`KIKzzP]dDMd?=D88en[2
 l16
 L15
-VTFHj4Qj=U2mhXojZ^^ZXm3
-!s100 @KdYNNiY;8V@5M]U_Z>CB1
+V1=5>j0CmGEHKBeb@15THV2
+!s100 icoOl6jan35O85EH:Czli3
 R6
 32
-R19
+R52
 !i10b 1
-R20
-R40
-R41
+R34
+R53
+R54
 !i113 1
 R11
 R12
 Eorinddst
-R0
-R23
-R24
-R25
+Z55 w1610646428
+R18
+R19
+R20
 R1
 R2
 R3
-Z42 8C:\Users\Dell\Desktop\PDP-11\ORIndDst.vhd
-Z43 FC:\Users\Dell\Desktop\PDP-11\ORIndDst.vhd
+Z56 8C:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/ORIndDst.vhd
+Z57 FC:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/ORIndDst.vhd
 l0
 L6
 VT5X_lZ31L0IUPQhP[2j840
 !s100 ngOUebm8[WTYXWOV5[ELd0
 R6
 32
-R19
+R52
 !i10b 1
-R20
-Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Dell\Desktop\PDP-11\ORIndDst.vhd|
-Z45 !s107 C:\Users\Dell\Desktop\PDP-11\ORIndDst.vhd|
+Z58 !s108 1610997228.000000
+Z59 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/ORIndDst.vhd|
+Z60 !s107 C:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/ORIndDst.vhd|
 !i113 1
 R11
 R12
 Aarch
-R23
-R24
-R25
+R18
+R19
+R20
 R1
 R2
 DEx4 work 8 orinddst 0 22 T5X_lZ31L0IUPQhP[2j840
@@ -294,42 +423,42 @@ V^<?fF_Z^ONN:zPdozSVof0
 !s100 gcc7j`1[AYZk897lL4=dS0
 R6
 32
-R19
+R52
 !i10b 1
-R20
-R44
-R45
+R58
+R59
+R60
 !i113 1
 R11
 R12
 Eorindsrc
-R0
-R23
-R24
-R25
+Z61 w1610646433
+R18
+R19
+R20
 R1
 R2
 R3
-Z46 8C:\Users\Dell\Desktop\PDP-11\OrIndSrc.vhd
-Z47 FC:\Users\Dell\Desktop\PDP-11\OrIndSrc.vhd
+Z62 8C:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/OrIndSrc.vhd
+Z63 FC:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/OrIndSrc.vhd
 l0
 L6
 V@93nOdES47ilDa3[_Yn>41
 !s100 HKmcmiA]PijB7ae<@jX6L2
 R6
 32
-R19
+R52
 !i10b 1
-R20
-Z48 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Dell\Desktop\PDP-11\OrIndSrc.vhd|
-Z49 !s107 C:\Users\Dell\Desktop\PDP-11\OrIndSrc.vhd|
+R58
+Z64 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/OrIndSrc.vhd|
+Z65 !s107 C:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/OrIndSrc.vhd|
 !i113 1
 R11
 R12
 Aarch
-R23
-R24
-R25
+R18
+R19
+R20
 R1
 R2
 DEx4 work 8 orindsrc 0 22 @93nOdES47ilDa3[_Yn>41
@@ -339,11 +468,95 @@ VU^]Hde1U6JW8S>>3C3AhD2
 !s100 nAINVi6zdh[nPZTYoAL`^1
 R6
 32
-R19
+R52
 !i10b 1
+R58
+R64
+R65
+!i113 1
+R11
+R12
+Eoroperation
+R17
+R18
+R19
 R20
-R48
-R49
+R1
+R2
+R3
+Z66 8C:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/OROperation.vhd
+Z67 FC:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/OROperation.vhd
+l0
+L7
+VB_EF[e0L]?oFkRDK4Vk?73
+!s100 G=P9nD>^:mGRb4dkSETMT0
+R6
+32
+R52
+!i10b 1
+R58
+Z68 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/OROperation.vhd|
+Z69 !s107 C:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/OROperation.vhd|
+!i113 1
+R11
+R12
+Aarch
+R18
+R19
+R20
+R1
+R2
+DEx4 work 11 oroperation 0 22 B_EF[e0L]?oFkRDK4Vk?73
+l17
+L15
+VB;b8mjan7Qo6Q_GW8CB[60
+!s100 S@2DQUKA9WzO6M_coh9fU2
+R6
+32
+R52
+!i10b 1
+R58
+R68
+R69
+!i113 1
+R11
+R12
+Eorresult
+R17
+R1
+R2
+R3
+Z70 8C:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/ORResult.vhd
+Z71 FC:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/ORResult.vhd
+l0
+L4
+V[L]O?MDz0KNadfYOZSi_O1
+!s100 k9MNhAePCh?if5nj5QY_Q2
+R6
+32
+R52
+!i10b 1
+R58
+Z72 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/ORResult.vhd|
+Z73 !s107 C:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/ORResult.vhd|
+!i113 1
+R11
+R12
+Aarch
+R1
+R2
+DEx4 work 8 orresult 0 22 [L]O?MDz0KNadfYOZSi_O1
+l14
+L12
+VSX0T4YV>GX^jFDKUA^zZ12
+!s100 0DWMT;CDzI<d642HjO]J13
+R6
+32
+R52
+!i10b 1
+R58
+R72
+R73
 !i113 1
 R11
 R12
@@ -352,19 +565,19 @@ R0
 R1
 R2
 R3
-Z50 8C:\Users\Dell\Desktop\PDP-11\partA.vhd
-Z51 FC:\Users\Dell\Desktop\PDP-11\partA.vhd
+Z74 8C:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/partA.vhd
+Z75 FC:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/partA.vhd
 l0
 L4
 Vcaz^Ym6::eI5LD_O0AlnN0
 !s100 H?9b<014f8_RQc93GfUXG3
 R6
 32
-R7
+Z76 !s110 1610997229
 !i10b 1
-R8
-Z52 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Dell\Desktop\PDP-11\partA.vhd|
-Z53 !s107 C:\Users\Dell\Desktop\PDP-11\partA.vhd|
+Z77 !s108 1610997229.000000
+Z78 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/partA.vhd|
+Z79 !s107 C:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/partA.vhd|
 !i113 1
 R11
 R12
@@ -378,11 +591,11 @@ V5S?MZfM=7fhN?0>]cm0^`0
 !s100 C6Q?RYjjHCZ=K_b8Y[H?[1
 R6
 32
-R7
+R76
 !i10b 1
-R8
-R52
-R53
+R77
+R78
+R79
 !i113 1
 R11
 R12
@@ -391,19 +604,19 @@ R0
 R1
 R2
 R3
-Z54 8C:\Users\Dell\Desktop\PDP-11\partB.vhd
-Z55 FC:\Users\Dell\Desktop\PDP-11\partB.vhd
+Z80 8C:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/partB.vhd
+Z81 FC:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/partB.vhd
 l0
 L4
 V<NDKVC_4iL]0eaoS86NRe0
 !s100 cA3[1?eFg8_TAdfWbK4X_3
 R6
 32
-R7
+R76
 !i10b 1
-R8
-Z56 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Dell\Desktop\PDP-11\partB.vhd|
-Z57 !s107 C:\Users\Dell\Desktop\PDP-11\partB.vhd|
+R77
+Z82 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/partB.vhd|
+Z83 !s107 C:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/partB.vhd|
 !i113 1
 R11
 R12
@@ -417,11 +630,11 @@ Ve6e>Ri>jOQ1NPB?6K;LO61
 !s100 [5=]GE1ceEc3WSI`K:R>l3
 R6
 32
-R7
+R76
 !i10b 1
-R8
-R56
-R57
+R77
+R82
+R83
 !i113 1
 R11
 R12
@@ -430,19 +643,19 @@ R0
 R1
 R2
 R3
-Z58 8C:\Users\Dell\Desktop\PDP-11\partC.vhd
-Z59 FC:\Users\Dell\Desktop\PDP-11\partC.vhd
+Z84 8C:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/partC.vhd
+Z85 FC:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/partC.vhd
 l0
 L4
 V90=UOOzo@[<YX5L_a51ZG0
 !s100 46zJEIENN_jiXmE^N>PHi2
 R6
 32
-R7
+R76
 !i10b 1
-R8
-Z60 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Dell\Desktop\PDP-11\partC.vhd|
-Z61 !s107 C:\Users\Dell\Desktop\PDP-11\partC.vhd|
+R77
+Z86 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/partC.vhd|
+Z87 !s107 C:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/partC.vhd|
 !i113 1
 R11
 R12
@@ -456,32 +669,32 @@ VQMXkMh644R>;09L3`=00>0
 !s100 81d_KfYXdAYhbS_c148R@2
 R6
 32
-R7
+R76
 !i10b 1
-R8
-R60
-R61
+R77
+R86
+R87
 !i113 1
 R11
 R12
 Epartd
-R0
+R17
 R1
 R2
 R3
-Z62 8C:\Users\Dell\Desktop\PDP-11\partD.vhd
-Z63 FC:\Users\Dell\Desktop\PDP-11\partD.vhd
+Z88 8C:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/partD.vhd
+Z89 FC:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/partD.vhd
 l0
 L4
 VC>e<R<EK>BEZeX[3eAEmC1
 !s100 Q0YJPfEjzLkUio>PZDkC93
 R6
 32
-R7
+R76
 !i10b 1
-R8
-Z64 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Dell\Desktop\PDP-11\partD.vhd|
-Z65 !s107 C:\Users\Dell\Desktop\PDP-11\partD.vhd|
+R77
+Z90 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/partD.vhd|
+Z91 !s107 C:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/partD.vhd|
 !i113 1
 R11
 R12
@@ -495,112 +708,192 @@ V_V]:KZoWAE[N_<>f94i^f3
 !s100 fM?Ed1>P3CXd7JJf100Z60
 R6
 32
-R7
+R76
 !i10b 1
-R8
-R64
-R65
+R77
+R90
+R91
+!i113 1
+R11
+R12
+Epdp11
+R37
+R1
+R2
+R3
+Z92 8C:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/PDP11.vhd
+Z93 FC:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/PDP11.vhd
+l0
+L4
+V1cNU3GFlW;G4C];G^6M0b2
+!s100 _fdJAajce:_>K2D_eC[SH2
+R6
+32
+R76
+!i10b 1
+R77
+Z94 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/PDP11.vhd|
+Z95 !s107 C:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/PDP11.vhd|
+!i113 1
+R11
+R12
+Aarch
+R1
+R2
+DEx4 work 5 pdp11 0 22 1cNU3GFlW;G4C];G^6M0b2
+l163
+L12
+V@L1l6Z4CHRLiUOXXjoh4V3
+!s100 [Jozh>Cd`z_<A=co14mgP1
+R6
+32
+R76
+!i10b 1
+R77
+R94
+R95
 !i113 1
 R11
 R12
 Epla
-Z66 w1610681109
-R25
+R37
+R20
 R1
 R2
 R3
-Z67 8C:\Users\Dell\Desktop\PDP-11\PLA.vhd
-Z68 FC:\Users\Dell\Desktop\PDP-11\PLA.vhd
+Z96 8C:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/PLA.vhd
+Z97 FC:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/PLA.vhd
 l0
 L6
-Vh<JnRK;9XEEB:4H^ELDKn3
-!s100 3DNcikmXlWE6g<WS3h3Ej1
+VcogL;^]>J:cz^n:`G@W6l0
+!s100 h>g=fn[MfSlO9nG6Bnnj13
 R6
 32
-Z69 !s110 1610681113
+Z98 !s110 1610997230
 !i10b 1
-Z70 !s108 1610681113.000000
-Z71 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Dell\Desktop\PDP-11\PLA.vhd|
-Z72 !s107 C:\Users\Dell\Desktop\PDP-11\PLA.vhd|
+Z99 !s108 1610997230.000000
+Z100 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/PLA.vhd|
+Z101 !s107 C:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/PLA.vhd|
 !i113 1
 R11
 R12
 Aarc
-R25
+R20
 R1
 R2
-Z73 DEx4 work 3 pla 0 22 h<JnRK;9XEEB:4H^ELDKn3
+DEx4 work 3 pla 0 22 cogL;^]>J:cz^n:`G@W6l0
 l17
 L14
-VfE=KEda0Oa]D73E0;^bb12
-!s100 82Z>nFHYhj<RIQg>4jbZA0
+VbelQm_o1_@nG9l^?^:Gaa0
+!s100 8mM:=FlA8<ANKMMegjC:f2
 R6
 32
-R69
+R98
 !i10b 1
-R70
-R71
-R72
+R99
+R100
+R101
+!i113 1
+R11
+R12
+Eram
+R37
+R20
+R1
+R2
+R3
+Z102 8C:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/ram.vhd
+Z103 FC:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/ram.vhd
+l0
+L5
+VWBOLj296?>AlJRoZbNb_P3
+!s100 Vo7b:3SRFEWM4dLg0C_6R0
+R6
+32
+R98
+!i10b 1
+R99
+Z104 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/ram.vhd|
+Z105 !s107 C:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/ram.vhd|
+!i113 1
+R11
+R12
+Asyncrama
+R20
+R1
+R2
+DEx4 work 3 ram 0 22 WBOLj296?>AlJRoZbNb_P3
+l21
+L14
+Vm9goVTWX?@an@c^>hbzX:1
+!s100 neG29a^2bY9P8MQazjTd02
+R6
+32
+R98
+!i10b 1
+R99
+R104
+R105
 !i113 1
 R11
 R12
 Eregister_nbits
-R0
+R37
 R1
 R2
 R3
-Z74 8C:/Users/Dell/Desktop/PDP-11/Register.vhd
-Z75 FC:/Users/Dell/Desktop/PDP-11/Register.vhd
+Z106 8C:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/Register.vhd
+Z107 FC:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/Register.vhd
 l0
 L4
-V>f126[=bLFUFHRC:HkiMU3
-!s100 4]K8JLk[6YZjS<Ue9VI^03
+Vccoh1n=K<XhP;2?lJ[PeW1
+!s100 ]K??HZlmGel^c>i71XmLg1
 R6
 32
-R7
+R98
 !i10b 1
-R8
-Z76 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Dell/Desktop/PDP-11/Register.vhd|
-Z77 !s107 C:/Users/Dell/Desktop/PDP-11/Register.vhd|
+R99
+Z108 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/Register.vhd|
+Z109 !s107 C:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/Register.vhd|
 !i113 1
 R11
 R12
 Areg_arch
 R1
 R2
-DEx4 work 14 register_nbits 0 22 >f126[=bLFUFHRC:HkiMU3
-l12
-L11
-VG?j[D[f07l?=?MZlELfKT2
-!s100 gK@6HCA[K8DYJCg;5o5gb0
+DEx4 work 14 register_nbits 0 22 ccoh1n=K<XhP;2?lJ[PeW1
+l14
+L13
+VMa]8TnakWdc;6CWE=hbRD3
+!s100 ^zAz<T_[a?kIR7z[23OI81
 R6
 32
-R7
+R98
 !i10b 1
-R8
-R76
-R77
+R99
+R108
+R109
 !i113 1
 R11
 R12
 Etristate
-R0
+R17
 R1
 R2
 R3
-Z78 8C:\Users\Dell\Desktop\PDP-11\Tristate.vhd
-Z79 FC:\Users\Dell\Desktop\PDP-11\Tristate.vhd
+Z110 8C:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/Tristate.vhd
+Z111 FC:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/Tristate.vhd
 l0
 L4
 Vl=nfU9Mk>Y9>1mIUITLdg2
 !s100 91<D52aXS;EQ<D`beb4LI2
 R6
 32
-R7
+Z112 !s110 1610997224
 !i10b 1
-R20
-Z80 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Dell\Desktop\PDP-11\Tristate.vhd|
-Z81 !s107 C:\Users\Dell\Desktop\PDP-11\Tristate.vhd|
+Z113 !s108 1610997224.000000
+Z114 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/Tristate.vhd|
+Z115 !s107 C:/Users/mahmo/CMP/ThirdYear/FirstSem/ComputerArchitecture/project/PDP-11/Tristate.vhd|
 !i113 1
 R11
 R12
@@ -614,11 +907,11 @@ VDlNX6XS>X;Ancc?l;jU`i0
 !s100 ]D4<jmHWW>1OVMADaje]c1
 R6
 32
-R7
+R112
 !i10b 1
-R20
-R80
-R81
+R113
+R114
+R115
 !i113 1
 R11
 R12
