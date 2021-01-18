@@ -10,7 +10,7 @@
 #include <regex>
 using namespace std;
 
-map<string, string> opCodesTwo, opCodesOne, opCodesBr, opCodesSpecial, labels;
+map<string, string> opCodesTwo, opCodesOne, opCodesBr, opCodesSpecial, labels, functions;
 map<string, int> variables;
 vector<string> varVector;
 vector<string> program;
@@ -138,11 +138,20 @@ pair<string, int> splitInstruction(string line, int &numberOfWords)
     string op = line.substr(0, line.find(' '));
     if (op.length() == 0 || line[0] == ';' || op == "DEFINE")
         return out;
+    string temp = TrimLeft(line.substr(op.length()));
+    if (temp[0] == ':')
+        op.push_back(':');
     if (op[op.length() - 1] == ':')
     {
         op.erase(op.length() - 1);
         labels[op] = to_string(numberOfWords + 1);
         line = TrimLeft(line.substr(op.length() + 1));
+        op = line.substr(0, line.find(' '));
+    }
+    else if (opCodesTwo[op] == "" && opCodesOne[op] == "" && opCodesBr[op] == "" && opCodesSpecial[op] == "")
+    {
+        functions[op] = to_string(numberOfWords + 1);
+        line = TrimLeft(line.substr(op.length()));
         op = line.substr(0, line.find(' '));
     }
     if (op.length() == 0 || line[0] == ';' || op == "DEFINE")
@@ -161,7 +170,6 @@ pair<string, int> splitInstruction(string line, int &numberOfWords)
     }
     else if (opCodesOne[op] != "")
     {
-        /*jsr need to be handled*/
         line = TrimLeft(line.substr(op.length()));
         src = line.substr(0, line.find(' '));
         string srcMode = getRegAddMode(src, numberOfWords);
@@ -197,7 +205,16 @@ pair<string, int> splitInstruction(string line, int &numberOfWords)
             jmpVector.push_back(src);
     }
     else if (opCodesSpecial[op] != "")
+    {
+        if (op == "JSR")
+        {
+            numberOfWords++;
+            line = TrimLeft(line.substr(op.length()));
+            src = line.substr(0, line.find(' '));
+            memory[numberOfWords] = src;
+        }
         IR = opCodesSpecial[op] + "00000110";
+    }
     out.first = IR;
     return out;
 }
@@ -243,7 +260,7 @@ int main(int argc, char **argv)
     opCodesOne["ASR"] = "10110111";
     opCodesOne["LSL"] = "10111000";
     opCodesOne["ROL"] = "10111001";
-    opCodesOne["JSR"] = "11110011"; /* need to be handled*/
+    // opCodesOne["JSR"] = "11110011"; /* need to be handled*/
 
     // BRANCH OP CODES
     opCodesBr["BR"] = "11010001";
@@ -257,6 +274,7 @@ int main(int argc, char **argv)
     //Special Operations
     opCodesSpecial["HLT"] = "11110001";
     opCodesSpecial["NOP"] = "11110010";
+    opCodesSpecial["JSR"] = "11110011";
     opCodesSpecial["RTS"] = "11110100";
     opCodesSpecial["IRET"] = "11110101";
 
@@ -298,6 +316,14 @@ int main(int argc, char **argv)
         if (variables[memory[i]] != 0)
         {
             memory[i] = stringToBinary(variables[memory[i]] - (i + 1), 16);
+        }
+    }
+
+    for (int i = 0; i <= numberOfWords; i++)
+    {
+        if (functions[memory[i]] != "")
+        {
+            memory[i] = stringToBinary(stoi(functions[memory[i]]), 16);
         }
     }
     int index = 0;
