@@ -17,7 +17,8 @@ begin
     microIR(7 downto 6) <= "00";
     microIR(5) <= or_dst and IR(5);
     microIR(4) <= or_dst and IR(4);
-    microIR(3) <= or_dst and IR(3);
+    microIR(3) <= or_dst and IR(3) when IR(5 downto 3) = "001"
+    else '0';
     microIR(2 downto 0) <= "000";
 end arch ;
 
