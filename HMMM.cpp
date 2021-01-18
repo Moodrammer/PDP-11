@@ -145,7 +145,8 @@ pair<string, int> splitInstruction(string line, int &numberOfWords)
     {
         op.erase(op.length() - 1);
         labels[op] = to_string(numberOfWords + 1);
-        line = TrimLeft(line.substr(op.length() + 1));
+        line = TrimLeft(line.substr(line.find(':')));
+        line.erase(0);
         op = line.substr(0, line.find(' '));
     }
     else if (opCodesTwo[op] == "" && opCodesOne[op] == "" && opCodesBr[op] == "" && opCodesSpecial[op] == "")
@@ -237,7 +238,7 @@ bool fillVar(string line)
 
 int main(int argc, char **argv)
 {
-    string inputFileName = argv[1];
+    string inputFileName = "E:/Projects/arc-project/assembler/aa.asm";
 
     // 2 OPERAND OP CODES
     opCodesTwo["MOV"] = "0001";
