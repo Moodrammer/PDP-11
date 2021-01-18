@@ -6,7 +6,8 @@ use ieee.numeric_std.all;
 entity pla is
   port (
     i: in std_logic_vector(15 downto 0);
-    o: out std_logic_vector(7 downto 0)
+		o: out std_logic_vector(7 downto 0);
+		enable: in std_logic
   ) ;
 end entity;
 
@@ -42,9 +43,10 @@ begin
 	else "10110001"; --Indexed
 	
 	
-	o <= specialOperations  when (opGroup = "00")
-  	  else oneOperand when (opGroup = "01")
-  	  else "11000000" when (opGroup = "10")
-	  else twoOperands;
+	o <= specialOperations  when (opGroup = "00") and enable = '1'
+  	  else oneOperand when (opGroup = "01") and enable = '1'
+  	  else "11000000" when (opGroup = "10") and enable = '1'
+			else twoOperands when (opGroup = "11") and enable = '1'
+			else "00000000";
 
 end arc ; -- arch

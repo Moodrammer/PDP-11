@@ -3,11 +3,10 @@ use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
 entity decoder is
-  generic(n : integer := 2);
+  generic(m : integer := 2);
   port (
-    i: in std_logic_vector((n-1) downto 0);
-    o: out std_logic_vector(((2 ** n) - 1) downto 0);
-    enable: in std_logic
+    i: in std_logic_vector((m-1) downto 0);
+    o: out std_logic_vector(((2 ** m) - 1) downto 0)
   ) ;
 end entity;
 
