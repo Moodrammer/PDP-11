@@ -138,6 +138,17 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity partD
 -- Compiling architecture archD of partD
 
+} {} {}} {G:/3rd grade CMP/1st term/Computer Architecture/project/PDP-11/ORDst.vhd} {1 {vcom -work work -2002 -explicit -stats=none {G:/3rd grade CMP/1st term/Computer Architecture/project/PDP-11/ORDst.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity ORDst
+-- Compiling architecture arch of ORDst
+
 } {} {}} C:/Users/Dell/Desktop/PDP-11/adder_nbits.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Dell/Desktop/PDP-11/adder_nbits.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
@@ -156,17 +167,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Loading package STD_LOGIC_UNSIGNED
 -- Compiling entity ORIndDst
 -- Compiling architecture arch of ORIndDst
-
-} {} {}} {G:/3rd grade CMP/1st term/Computer Architecture/project/PDP-11/ORDst.vhd} {1 {vcom -work work -2002 -explicit -stats=none {G:/3rd grade CMP/1st term/Computer Architecture/project/PDP-11/ORDst.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Loading package std_logic_arith
--- Loading package STD_LOGIC_UNSIGNED
--- Compiling entity ORDst
--- Compiling architecture arch of ORDst
 
 } {} {}} {G:/3rd grade CMP/1st term/Computer Architecture/project/PDP-11/Register.vhd} {1 {vcom -work work -2002 -explicit -stats=none {G:/3rd grade CMP/1st term/Computer Architecture/project/PDP-11/Register.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
