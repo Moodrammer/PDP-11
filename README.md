@@ -38,6 +38,7 @@ The Supported Instructions are :
 
 ### Branching Instructions:
 ![Branch](Figures/Branch_IR.png)
+
 The Supported Instructions are :
 - BR (Branch unconditionally)
 - BEQ (Branch if equal)
@@ -49,6 +50,7 @@ The Supported Instructions are :
 
 ### Special Instructions:
 ![Special](Figures/Special_IR.png)
+
 The Supported Instructions are : 
 - HLT (Halt)
 - NOP (No operation)
