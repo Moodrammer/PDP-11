@@ -1,0 +1,20 @@
+MOV N, R0
+MOV #10, R1
+MOV (R0)+, R3
+MOV -(R0), R4
+MOV 2(R0), R5
+MOV @R0, R2
+MOV @(R0)+, R3
+MOV @-(R0), R4
+MOV @2(R0), R5
+HLT           
+
+Define N 18     
+Define M 5      
+Define X 1      
+Define A 21     
+Define B 21     
+Define C 23     
+Define Q 22     
+Define P 9      
+Define R 10     

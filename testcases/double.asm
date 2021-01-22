@@ -13,6 +13,6 @@ cmp R0, R1 ; not equal ; address = 15
 bne labelx ;address = 16
 mov #10, R0 ; not executed ; address = 17, 18
 labelx  :
-mov R1, R0 ; r0 = 5 ; address = 19
+mov R1, R0 ; r0 = 0 ; address = 19
 xor R1, R1 ; r1 = 0 ; address = 20
 hlt
