@@ -3,14 +3,14 @@ The project aims to enforce the concepts of computer architecture by designing a
 
 ## Processor Design
 
-![Processor Design](Figures\Processor_design.png)
+![Processor Design](Figures/Processor_design.png)
 
 ## Control word design
-![Control Word](Figures\ControlWord.png)
+![Control Word](Figures/ControlWord.png)
 
 ## Instruction Register design
 ### Double Operand Instructions:
-![double](Figures\Double_IR.png)
+![double](Figures/Double_IR.png)
 
 The Supported Instructions are :
 - Add 
@@ -23,7 +23,7 @@ The Supported Instructions are :
 - CMP (Compare to set flags)
 
 ### Single Operand Instructions:
-![Single](Figures\Single_IR.png)
+![Single](Figures/Single_IR.png)
 
 The Supported Instructions are :
 - INC (Increment)
@@ -37,7 +37,7 @@ The Supported Instructions are :
 - ROL (Rotate Left)
 
 ### Branching Instructions:
-![Branch](Figures\Branch_IR.png)
+![Branch](Figures/Branch_IR.png)
 The Supported Instructions are :
 - BR (Branch unconditionally)
 - BEQ (Branch if equal)
@@ -48,7 +48,7 @@ The Supported Instructions are :
 - BHS (Branch if Higher or same)
 
 ### Special Instructions:
-![Special](Figures\Special_IR.png)
+![Special](Figures/Special_IR.png)
 The Supported Instructions are : 
 - HLT (Halt)
 - NOP (No operation)
@@ -56,7 +56,7 @@ The Supported Instructions are :
 - RTS (Return from service routine)
 
 ## Addressing modes supported:
-![Add modes](Figures\add_modes.png)
+![Add modes](Figures/add_modes.png)
 
 ## Assembler
 An assembler is provided coded in c++ to convert input codes to the format understood by the designed processor.  \
