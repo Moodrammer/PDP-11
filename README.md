@@ -1,6 +1,28 @@
 # PDP-11
-The project aims to enforce the concepts of computer architecture by designing and simulating a 16-bit processor inspired by ideas from the famous PDP-11 processor.
 
+[![GitHub contributors](https://img.shields.io/github/contributors/Moodrammer/PDP-11)](https://github.com/Moodrammer/PDP-11/graphs/contributors)
+[![GitHub forks](https://img.shields.io/github/forks/Moodrammer/PDP-11)](https://github.com/Moodrammer/PDP-11/network/members)
+[![GitHub stars](https://img.shields.io/github/stars/Moodrammer/PDP-11)](https://github.com/Moodrammer/PDP-11/stargazers)
+[![GitHub license](https://img.shields.io/github/license/Moodrammer/PDP-11)](https://github.com/Moodrammer/PDP-11/blob/master/License)
+
+## Table of Contents
+- [Introduction](#About)
+- [Processor Design Diagram](#Processor-Design)
+- [Control word design](#Control-word-design)
+- [Instruction Register design](#Instruction-Register-design)
+  * [Double Operand Instructions](#Double-Operand-Instructions)
+  * [Single Operand Instructions](#Single-Operand-Instructions)
+  * [Branching Instructions](#Branching-Instructions)
+  * [Special Instructions](#Special-Instructions)
+- [Addressing modes supported](#Addressing-modes-supported)
+- [Assembler](#Assembler)
+- [Steps to run](#Steps-to-run)
+- [Tools](#Tools)
+- [Contributers](#Contributers)
+- [License](#License)
+
+## About
+The project aims to enforce the concepts of computer architecture by designing and simulating a 16-bit processor inspired by ideas from the famous PDP-11 processor.
 ## Processor Design
 
 ![Processor Design](Figures/Processor_design.png)
@@ -87,3 +109,5 @@ The created do file should :
 - [Muhammed Alaa](https://github.com/MuhammeedAlaa)
 - [Mahmoud Gody](https://github.com/Moodrammer)
 
+## License:
+- Licensed under the [MIT License](./License).
